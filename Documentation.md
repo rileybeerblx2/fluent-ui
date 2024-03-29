@@ -38,6 +38,10 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
+
+local Options = Fluent.Options
+
+do
 ```
 
 ## Creating a Notify
